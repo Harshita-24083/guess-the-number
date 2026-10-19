@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess the number</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 30px;
+            background-color: rgb(176, 176, 176);
+        }
+         #box
+         {
+            border: 2px solid black;
+            padding: 30px;
+            text-align: center;
+            width: 350px;
+            border-radius: 14px;
+             display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 350px;
+            gap: 30px;
+            background-color:white;
+         }
+        input {
+            height: 31px;
+        }
+
+        #sub {
+            height: 38px;
+            background-color: rgb(11, 92, 243);
+            color: white;
+            border-radius: 6px;
+            width: 70px;
+        }
+
+        #hint {
+
+
+            height: 4px;
+        }
+
+        #att {
+            height: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="box">
+
+    <h2>Guess a number(1-100)</h2>
+    <div>
+        <input type="number" id="num" placeholder="Enter number">
+        <button id="sub">Submit</button>
+    </div>
+    <h1 id="hint"></h1>
+    <h1 id="att"></h1>
+</div>
+
+    <script src="script.js"></script>
+
+  
+</body>
+</html0
